@@ -1,13 +1,102 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  padding-bottom: 50px;
 }
+
+.mainHead {
+  font-family: 'Gloria Hallelujah', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.resumeButton {
+  font-family: 'Cabin', sans-serif;
+  padding: 10px 28px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: rgb(255, 72, 102);
+  margin-right: 9px;
+}
+
+.resumeButton:hover {
+  color: rgb(255, 72, 102);
+  background-color: white !important;
+  border-color: rgb(255, 72, 102);
+  border-style: solid;
+}
+
+.linkedinButton {
+  font-family: 'Cabin', sans-serif;
+  padding: 10px 28px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #016b8f;
+  margin-right: 16px;
+}
+
+.linkedinButton:hover {
+  color: #016b8f;
+  background-color: white !important;
+  border-color: #016b8f;
+  border-style: solid;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: 'Crimson Text', serif;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.personalBox {
+  padding: 36px 32px 32px;
+  border: 2px solid;
+  border-radius: 8px;
+  border-color: white;
+  height: 248px;
+  width: 15%;
+}
+
+.personalBox:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgb(255, 72, 102);
+}
+
+.logo {
+  color: black;
+}
+
+.logo:visited {
+  color: black;
+}
+
+.logo:hover {
+  color: rgb(255, 72, 102);
+}
+
+.footerLogo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.centerFoot {
+  width: 175px;
+  margin: 10px auto;
+}
+
